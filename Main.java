@@ -1,15 +1,5 @@
-package com.example.myproject;
-
-import  com.example.myproject.Main;
-import  com.example.myproject.Person;
-import  com.example.myproject.FileHandler;
-import  com.example.myproject.FamilyMember;
-import  com.example.myproject.FamilyTree;
-    
-
-
 public class Main {
-    public static void main(String[] args) {
+public static void main(String[] args) {
         FamilyTree familyTree = new FamilyTree();
 
         Person person1 = new Person("John", "Male", "01-01-1980", "N/A");
